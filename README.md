@@ -42,6 +42,7 @@ unitbuypriceinflation: 0.040000
 solarpanellifetime: 25.000000
 selltogridfraction: 0.660000
 totalAnnualGeneration: 3200.000000
+
 Year 1:
 Sell unit rate (euro): 0.140000
 Buy unit rate (euro): 0.310000

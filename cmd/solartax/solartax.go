@@ -44,7 +44,7 @@ func main() {
 	fmt.Printf("unitbuypriceinflation: %f\n", *unitBuyPriceInflation)
 	fmt.Printf("solarpanellifetime: %f\n", *solarPanelLifetime)
 	fmt.Printf("selltogridfraction: %f\n", *selltoGridFraction)
-	fmt.Printf("totalAnnualGeneration: %f\n", *totalAnnualGeneration)
+	fmt.Printf("totalAnnualGeneration: %f\n\n", *totalAnnualGeneration)
 
 	currentUnitSellPrice := *unitSellPrice
 	currentUnitBuyPrice := *unitBuyPrice
