@@ -19,7 +19,7 @@ Usage of ./solartax:
   -totalannualgeneration float
         Total amount of electricity generated in a year in kilowatts. Eg for 3.2 megawatts set to 3200 (default 3200)
   -unitbuyprice float
-        Price for selling a unit to the grid. eg 0.31 for 31 cents per unit (default 0.31)
+        Price for buying a unit from the grid. eg 0.31 for 31 cents per unit (default 0.31)
   -unitbuypriceinflation float
         Rate at which price for selling to the grid increases. Eg for 5% per year use 0.05 here (default 0.04)
   -unitsellprice float
