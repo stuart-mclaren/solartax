@@ -14,7 +14,7 @@ func main() {
 	unitSellPrice := flag.Float64("unitsellprice", 0.21,
 		"Price for selling a unit to the grid. eg 0.21 for 21 cents per unit")
 	unitBuyPrice := flag.Float64("unitbuyprice", 0.31,
-		"Price for selling a unit to the grid. eg 0.31 for 31 cents per unit")
+		"Price for buying a unit from the grid. eg 0.31 for 31 cents per unit")
 	unitSellPriceInflation := flag.Float64("unitsellpriceinflation", 0.04,
 		"Rate at which price for selling to "+
 			"the grid increases. Eg for 5% per "+
