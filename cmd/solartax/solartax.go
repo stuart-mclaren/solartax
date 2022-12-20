@@ -6,13 +6,13 @@ import (
 )
 
 func main() {
-	taxRate := flag.Float64("incometaxrate", 0.4,
-		"Income tax rate. For 40% use 0.4 here.")
+	taxRate := flag.Float64("incometaxrate", 0.52,
+		"Income tax rate. For 52% use 0.52 here.")
 	annualTaxAllowance := flag.Float64("annualtaxallowance", 200.0,
 		"Income tax allowance. Eg 200.0 for first 200 euro income "+
 			"every year to be untaxed")
-	unitSellPrice := flag.Float64("unitsellprice", 0.14,
-		"Price for selling a unit to the grid. eg 0.14 for 14 cents per unit")
+	unitSellPrice := flag.Float64("unitsellprice", 0.21,
+		"Price for selling a unit to the grid. eg 0.21 for 21 cents per unit")
 	unitBuyPrice := flag.Float64("unitbuyprice", 0.31,
 		"Price for selling a unit to the grid. eg 0.31 for 31 cents per unit")
 	unitSellPriceInflation := flag.Float64("unitsellpriceinflation", 0.04,
