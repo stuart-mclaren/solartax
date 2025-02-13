@@ -8,8 +8,8 @@ import (
 func main() {
 	taxRate := flag.Float64("incometaxrate", 0.52,
 		"Income tax rate. For 52% use 0.52 here.")
-	annualTaxAllowance := flag.Float64("annualtaxallowance", 200.0,
-		"Income tax allowance. Eg 200.0 for first 200 euro income "+
+	annualTaxAllowance := flag.Float64("annualtaxallowance", 400.0,
+		"Income tax allowance. Eg 400.0 for first 400 euro income "+
 			"every year to be untaxed")
 	unitSellPrice := flag.Float64("unitsellprice", 0.21,
 		"Price for selling a unit to the grid. eg 0.21 for 21 cents per unit")
@@ -44,7 +44,8 @@ func main() {
 	fmt.Printf("unitbuypriceinflation: %f\n", *unitBuyPriceInflation)
 	fmt.Printf("solarpanellifetime: %f\n", *solarPanelLifetime)
 	fmt.Printf("selltogridfraction: %f\n", *selltoGridFraction)
-	fmt.Printf("totalAnnualGeneration: %f\n\n", *totalAnnualGeneration)
+	fmt.Printf("totalAnnualGeneration: %f\n", *totalAnnualGeneration)
+	fmt.Printf("annualTaxAllowance: %f\n\n", *annualTaxAllowance)
 
 	currentUnitSellPrice := *unitSellPrice
 	currentUnitBuyPrice := *unitBuyPrice
